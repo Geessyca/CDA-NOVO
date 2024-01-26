@@ -649,6 +649,10 @@
     }
 
     @media screen and (max-width: 768px) {
+        .sectionnew .list-item{
+            flex-direction: column !important;
+        }
+
         .funciona {
             display: none;
         }
@@ -941,8 +945,9 @@
         margin: 5vh 0 10vh;
         flex-direction: column;
     }
-    
-    .sectionnew h4, .sectionpar h4{
+
+    .sectionnew h4,
+    .sectionpar h4 {
         font-size: 25px;
         font-weight: 500 !important;
         color: #724A88;
@@ -958,8 +963,11 @@
         max-height: 70vh;
         overflow-y: auto;
     }
+
     @media screen and (max-width: 768px) {
-        .sectionnew h4 , .sectionpar h4{
+
+        .sectionnew h4,
+        .sectionpar h4 {
             font-size: 20px;
         }
 
@@ -1198,10 +1206,10 @@
         margin-bottom: 30px;
         text-align: center;
         font-size: 32px !important;
-    font-weight: 600 !important;
-    text-align: center;
-    color: #714A88;
-    line-height: 30px;
+        font-weight: 600 !important;
+        text-align: center;
+        color: #714A88;
+        line-height: 30px;
 
     }
 
@@ -1216,9 +1224,9 @@
         margin: 0;
         word-break: break-word;
         font-weight: 600;
-    text-align: justify;
-    letter-spacing: -0.015em;
-    color: #714A88;
+        text-align: justify;
+        letter-spacing: -0.015em;
+        color: #714A88;
     }
 
     .mobilestylebottom {
@@ -1286,39 +1294,48 @@
     img.mobileslideimg {
         margin: auto;
     }
-    .sectionpar{
+
+    .sectionpar {
         margin-top: -100px;
         margin-bottom: 100px;
         width: 80%;
         margin-left: 10%;
     }
-    .sectionpar h4{
+
+    .sectionpar h4 {
         margin-bottom: 30px !important;
     }
-    .slick-next:before{
+
+    .slick-next:before {
         content: "";
     }
-    .slider .slick-slide{
+
+    .slider .slick-slide {
         margin-top: 0;
     }
-    .slider button{
+
+    .slider button {
         margin-top: 50px;
     }
-    .slider img{
-    box-shadow: 0 0 10px rgb(0 0 0 / 11%);
-    border-radius: 50%;
-    margin: 20px;
+
+    .slider img {
+        box-shadow: 0 0 10px rgb(0 0 0 / 11%);
+        border-radius: 50%;
+        margin: 20px;
     }
-    @media screen and (max-width:800px) {.sectionpar{
-        margin-top: -40px;
-        margin-bottom: 10px;
-        width: 90%;
-        margin-left: 5%;
+
+    @media screen and (max-width:800px) {
+        .sectionpar {
+            margin-top: -40px;
+            margin-bottom: 10px;
+            width: 90%;
+            margin-left: 5%;
+        }
+
+        .slider button {
+            margin-top: 15px;
+        }
     }
-    
-    .slider button{
-        margin-top: 15px;
-    }}
 </style>
 
 <body>
@@ -1599,1996 +1616,1128 @@
         <section class="sectionnew">
             <h4 style="padding: 0;">Clique no pais para ver os canais de vendas locais</h4>
             <div class="container">
-                
-        <div class="toggle-list" id="Alemanha" onclick="toggleList('Alemanha')">
-            <h4>
-                Alemanha
-            </h4>
-            <ul class="list" id="Alemanha-list">
-                
-            <li class="list-item">
-                <p>
-                    Libri - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Online + Phvsical Connectivity: Libri (owners of BOD) - E-book
-                </p>
-                <p>
-                     *
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Amazon.de - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Libri Wholesale and Distribution - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Australia" onclick="toggleList('Australia')">
-            <h4>
-                Australia
-            </h4>
-            <ul class="list" id="Australia-list">
-                
-            <li class="list-item">
-                <p>
-                    Amazon - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Booktopia - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Dennis Jones & Associates - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Dymocks - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Fishpond - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    James Bennett / ALS / DA Information Services - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Mercury Retail Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    The Nile - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Word of Distributors - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Brasil" onclick="toggleList('Brasil')">
-            <h4>
-                Brasil
-            </h4>
-            <ul class="list" id="Brasil-list">
-                
-            <li class="list-item">
-                <p>
-                    Agbook - Impresso
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Amazon - Impresso
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    ANL - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Estante Virtual - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Magazine Luiza - Impresso
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Mercado Livre - Impresso
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Shoptime - Impresso
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Submarino - Impresso
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Amazon Kindle - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Skeelo - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Scribd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Google Play Livros - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Apple Livros - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Barnes & Noble - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Pensática - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-        
-        <div class="toggle-list" id="Canada" onclick="toggleList('Canada')">
-            <h4>
-                Canada
-            </h4>
-            <ul class="list" id="Canada-list">
-                
-            <li class="list-item">
-                <p>
-                    Amazon - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Chapters/Indigo - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Livrarias em Universidades - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Livrarias Impressos e independentes - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Lojas pela Internet - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="China" onclick="toggleList('China')">
-            <h4>
-                China
-            </h4>
-            <ul class="list" id="China-list">
-                
-            <li class="list-item">
-                <p>
-                    Amazon.cns - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Dang Dang - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    JD.com - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Xinhua - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="CoreiadoSul" onclick="toggleList('CoreiadoSul')">
-            <h4>
-                Coreia do Sul
-            </h4>
-            <ul class="list" id="CoreiadoSul-list">
-                
-            <li class="list-item">
-                <p>
-                    www.Yes24.com - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-            <li class="list-item">
-                <p>
-                    Aladin - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Coupang - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Kyobo - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Yes24 - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Ecuador" onclick="toggleList('Ecuador')">
-            <h4>
-                Ecuador
-            </h4>
-            <ul class="list" id="Ecuador-list">
-                
-            <li class="list-item">
-                <p>
-                    El petirrojo - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    The Bookslink - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Escocia" onclick="toggleList('Escocia')">
-            <h4>
-                Escócia
-            </h4>
-            <ul class="list" id="Escocia-list">
-                
-            <li class="list-item">
-                <p>
-                    AdLibris AB - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Agapea - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Amazon - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Aphrohead - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Bertram Books - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Blackwell - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Book Depository Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Books Express - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Coutts Information Services Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    DEA Mediagroup Spa - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Eden Interactive Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Fishpond UK - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Gardens - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Langham Partnership (UK & Ireland) - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Mallory International - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Paperback Shop Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    SellerEngine Software
-                </p>
-                <p>
-                     Inc - Formally the Book Community - E-book
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Superbookdeals - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Trust Media Distribution - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Waterstone's Booksellers LimitedW&G Foyle Ltd
-                </p>
-                <p>
-                     Wrap Distribution. - E-book
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Espanha" onclick="toggleList('Espanha')">
-            <h4>
-                Espanha
-            </h4>
-            <ul class="list" id="Espanha-list">
-                
-            <li class="list-item">
-                <p>
-                    Agapea - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Amazon.es - E-book |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Amazon.es - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Asturlibros - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Azeta - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Buscalibre - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Carrefour - E-book |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Casa del libro - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    CEGAL - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Corte Ingles - E-book |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Fnac - E-book |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    PodiPrint - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="EstadosUnidos" onclick="toggleList('EstadosUnidos')">
-            <h4>
-                Estados Unidos
-            </h4>
-            <ul class="list" id="EstadosUnidos-list">
-                
-            <li class="list-item">
-                <p>
-                    Amazon.in - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Baker & Taylor - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Barnes & Noble - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Espresso Book Machine - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Ingram - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Landabooks Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    NACSCORP - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            
-                
-                <li class="list-item">
-                    <p>
-                         Target - Impreso
-                    </p>
-                    <p>
-                         *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
-                    </p>
-                </li>
-            
-                <li class="list-item">
-                    <p>
-                        Amazon.com - Impreso
-                    </p>
-                    <p>
-                         *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
-                    </p>
-                </li>
-            
-                <li class="list-item">
-                    <p>
-                        Barnes & Noble - Impreso
-                    </p>
-                    <p>
-                         *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
-                    </p>
-                </li>
-            
-                <li class="list-item">
-                    <p>
-                        Ingram Book Company - Impreso
-                    </p>
-                    <p>
-                         *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
-                    </p>
-                </li>
-            
-                <li class="list-item">
-                    <p>
-                        Walmart - Impreso
-                    </p>
-                    <p>
-                         *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
-                    </p>
-                </li>
-            
-                </ul>
-        </div>
-    
-        <div class="toggle-list" id="EuropaContinental" onclick="toggleList('EuropaContinental')">
-            <h4>
-                Europa Continental
-            </h4>
-            <ul class="list" id="EuropaContinental-list">
-                
-            <li class="list-item">
-                <p>
-                    AdLibris AB - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Agapea - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Amazon - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Aphrohead - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Bertram Books - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Blackwell - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Book Depository Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Books Express - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Coutts Information Services Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    DEA Mediagroup Spa - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Eden Interactive Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Fishpond UK - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Gardens - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Langham Partnership (UK & Ireland) - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Mallory International - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Paperback Shop Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    SellerEngine Software
-                </p>
-                <p>
-                     Inc - Formally the Book Community - E-book
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Superbookdeals - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Trust Media Distribution - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Waterstone's Booksellers LimitedW&G Foyle Ltd
-                </p>
-                <p>
-                     Wrap Distribution. - E-book
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="India" onclick="toggleList('India')">
-            <h4>
-                India
-            </h4>
-            <ul class="list" id="India-list">
-                
-            <li class="list-item">
-                <p>
-                    Amazon.in - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Bookscape.com - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Flipkart - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Infibeam.com - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    paytm.in - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    rediff.com - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Shopclues.com - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    snapdeal.in - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Inglaterra" onclick="toggleList('Inglaterra')">
-            <h4>
-                Inglaterra
-            </h4>
-            <ul class="list" id="Inglaterra-list">
-                
-            <li class="list-item">
-                <p>
-                    AdLibris AB - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Agapea - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Amazon - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Aphrohead - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Bertram Books - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Blackwell - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Book Depository Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Books Express - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Coutts Information Services Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    DEA Mediagroup Spa - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Eden Interactive Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Fishpond UK - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Gardens - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Langham Partnership (UK & Ireland) - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Mallory International - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Paperback Shop Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    SellerEngine Software
-                </p>
-                <p>
-                     Inc - Formally the Book Community - E-book
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Superbookdeals - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Trust Media Distribution - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Waterstone's Booksellers LimitedW&G Foyle Ltd
-                </p>
-                <p>
-                     Wrap Distribution. - E-book
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Italia" onclick="toggleList('Italia')">
-            <h4>
-                Italia
-            </h4>
-            <ul class="list" id="Italia-list">
-                
-            <li class="list-item">
-                <p>
-                     Amazon.eu - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    IBS.it - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Lampi di Stampa (Messeqgerie Italiane) - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Libraccio.it - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Mandadori - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Messaggerie Libri - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Messeggerie Internazionale - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Rizzoli RCS - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Japan" onclick="toggleList('Japan')">
-            <h4>
-                Japan
-            </h4>
-            <ul class="list" id="Japan-list">
-                
-            <li class="list-item">
-                <p>
-                    Honto - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Maruzen.jp - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="NovaZelandia" onclick="toggleList('NovaZelandia')">
-            <h4>
-                Nova Zelândia
-            </h4>
-            <ul class="list" id="NovaZelandia-list">
-                
-            <li class="list-item">
-                <p>
-                    Amazon - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Dennis Jones & Associates - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    fishpond.com - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    James Bennett / ALS / DA Information Services - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Mercury Retail Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Word of Distributors - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="PaisdeGales" onclick="toggleList('PaisdeGales')">
-            <h4>
-                País de Gales
-            </h4>
-            <ul class="list" id="PaisdeGales-list">
-                
-            <li class="list-item">
-                <p>
-                    AdLibris AB - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Agapea - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Amazon - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Aphrohead - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Bertram Books - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Blackwell - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Book Depository Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Books Express - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Coutts Information Services Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    DEA Mediagroup Spa - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Eden Interactive Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Fishpond UK - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Gardens - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Langham Partnership (UK & Ireland) - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Mallory International - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Paperback Shop Ltd - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    SellerEngine Software
-                </p>
-                <p>
-                     Inc - Formally the Book Community - E-book
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Superbookdeals - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Trust Media Distribution - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Waterstone's Booksellers LimitedW&G Foyle Ltd
-                </p>
-                <p>
-                     Wrap Distribution. - E-book
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-    
-        <div class="toggle-list" id="Polonia" onclick="toggleList('Polonia')">
-            <h4>
-                Polônia
-            </h4>
-            <ul class="list" id="Polonia-list">
-                
-            <li class="list-item">
-                <p>
-                    Azymut - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Czytam.pl - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Empik.com - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Gigant.pl - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Krainaksiazek.pl - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    PWN Bookstores - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Portugal" onclick="toggleList('Portugal')">
-            <h4>
-                Portugal
-            </h4>
-            <ul class="list" id="Portugal-list">
-                
-            <li class="list-item">
-                <p>
-                    Fnac - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Russia" onclick="toggleList('Russia')">
-            <h4>
-                Russia
-            </h4>
-            <ul class="list" id="Russia-list">
-                
-            <li class="list-item">
-                <p>
-                    www.books.ru - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    www.ozon.ru - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    www.red.ru - E-book
-                </p>
-                <p>
-                     
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="SharjahUAE" onclick="toggleList('SharjahUAE')">
-            <h4>
-                Sharjah UAE
-            </h4>
-            <ul class="list" id="SharjahUAE-list">
-                
-            <li class="list-item">
-                <p>
-                    Ciel - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Kinokuniya - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Neelwafurat.com - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Noon - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    White Lion - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="Singapura" onclick="toggleList('Singapura')">
-            <h4>
-                Singapura
-            </h4>
-            <ul class="list" id="Singapura-list">
-                
-            <li class="list-item">
-                <p>
-                    Amazon - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-        <div class="toggle-list" id="SouthAfrica" onclick="toggleList('SouthAfrica')">
-            <h4>
-                South Africa
-            </h4>
-            <ul class="list" id="SouthAfrica-list">
-                
-            <li class="list-item">
-                <p>
-                    Balakudu - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Takealot.com - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
 
-    
-        <div class="toggle-list" id="UK" onclick="toggleList('UK')">
-            <h4>
-                UK
-            </h4>
-            <ul class="list" id="UK-list">
-                
-            <li class="list-item">
-                <p>
-                    Amazon.co.uk - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Blackwells - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Gardners - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Ingram Wholesale UK - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            <li class="list-item">
-                <p>
-                    Waterstones - Impresso
-                </p>
-                <p>
-                     *ISBN Exigido |  Livros com orelha serão adaptados para formato sem orelha
-                </p>
-            </li>
-        
-            </ul>
-        </div>
-    
-    
+                <div class="toggle-list" id="Alemanha" onclick="toggleList('Alemanha')">
+                    <h4>
+                        Alemanha
+                    </h4>
+                    <ul class="list" id="Alemanha-list">
+
+                        <li class="list-item">
+                            <p>
+                                Libri
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+                        <li class="list-item">
+                            <p>
+                                Amazon.de
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Libri Wholesale and Distribution
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Australia" onclick="toggleList('Australia')">
+                    <h4>
+                        Australia
+                    </h4>
+                    <ul class="list" id="Australia-list">
+
+                        <li class="list-item">
+                            <p>
+                                Amazon
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Booktopia
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+                        <li class="list-item">
+                            <p>
+                                Dymocks
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Fishpond
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+
+
+                        <li class="list-item">
+                            <p>
+                                The Nile
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Brasil" onclick="toggleList('Brasil')">
+                    <h4>
+                        Brasil
+                    </h4>
+                    <ul class="list" id="Brasil-list">
+
+                        <li class="list-item">
+                            <p>
+                                Agbook
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Amazon
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Livrarias de Rua
+                            </p>
+                            <p>
+                                *ISBN Exigido
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Estante Virtual
+                            </p>
+                            <p>
+                                *ISBN Exigido
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Magazine Luiza
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Mercado Livre
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Shoptime
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Submarino
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Canada" onclick="toggleList('Canada')">
+                    <h4>
+                        Canada
+                    </h4>
+                    <ul class="list" id="Canada-list">
+
+
+
+
+
+                        <li class="list-item">
+                            <p>
+                                Livrarias em Universidades
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Livrarias Impressos e independentes
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="China" onclick="toggleList('China')">
+                    <h4>
+                        China
+                    </h4>
+                    <ul class="list" id="China-list">
+
+
+
+                        <li class="list-item">
+                            <p>
+                                Dang Dang
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                JD.com
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Xinhua
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="CoreiadoSul" onclick="toggleList('CoreiadoSul')">
+                    <h4>
+                        Coreia do Sul
+                    </h4>
+                    <ul class="list" id="CoreiadoSul-list">
+
+
+                        <li class="list-item">
+                            <p>
+                                Aladin
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Coupang
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Kyobo
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Yes24
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Ecuador" onclick="toggleList('Ecuador')">
+                    <h4>
+                        Ecuador
+                    </h4>
+                    <ul class="list" id="Ecuador-list">
+
+                        <li class="list-item">
+                            <p>
+                                El petirrojo
+                            </p>
+                            <p>
+                                *ISBN Exigido
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                The Bookslink
+                            </p>
+                            <p>
+                                *ISBN Exigido
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Escocia" onclick="toggleList('Escocia')">
+                    <h4>
+                        Escócia
+                    </h4>
+                    <ul class="list" id="Escocia-list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Espanha" onclick="toggleList('Espanha')">
+                    <h4>
+                        Espanha
+                    </h4>
+                    <ul class="list" id="Espanha-list">
+
+                        <li class="list-item">
+                            <p>
+                                Agapea
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Amazon.es - E-book | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Amazon.es
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Asturlibros
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Azeta
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Buscalibre
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Carrefour - E-book | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Casa del libro
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                CEGAL
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Corte Ingles - E-book | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Fnac - E-book | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                            <p>
+
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                PodiPrint
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="EstadosUnidos" onclick="toggleList('EstadosUnidos')">
+                    <h4>
+                        Estados Unidos
+                    </h4>
+                    <ul class="list" id="EstadosUnidos-list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <li class="list-item">
+                            <p>
+                                Target - Impreso
+                            </p>
+                            <p>
+                                *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Amazon.com - Impreso
+                            </p>
+                            <p>
+                                *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Barnes & Noble - Impreso
+                            </p>
+                            <p>
+                                *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Ingram Book Company - Impreso
+                            </p>
+                            <p>
+                                *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Walmart - Impreso
+                            </p>
+                            <p>
+                                *ISBN Requerido | Los libros con solapas se adaptarán al formato sin solapas
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="EuropaContinental" onclick="toggleList('EuropaContinental')">
+                    <h4>
+                        Europa Continental
+                    </h4>
+                    <ul class="list" id="EuropaContinental-list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="India" onclick="toggleList('India')">
+                    <h4>
+                        India
+                    </h4>
+                    <ul class="list" id="India-list">
+
+                        <li class="list-item">
+                            <p>
+                                Amazon.in
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Bookscape.com
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Flipkart
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Inglaterra" onclick="toggleList('Inglaterra')">
+                    <h4>
+                        Inglaterra
+                    </h4>
+                    <ul class="list" id="Inglaterra-list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Italia" onclick="toggleList('Italia')">
+                    <h4>
+                        Italia
+                    </h4>
+                    <ul class="list" id="Italia-list">
+
+                        <li class="list-item">
+                            <p>
+                                Amazon.eu
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                IBS.it
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+                        <li class="list-item">
+                            <p>
+                                Libraccio.it
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+                        <li class="list-item">
+                            <p>
+                                Messaggerie Libri
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Japan" onclick="toggleList('Japan')">
+                    <h4>
+                        Japan
+                    </h4>
+                    <ul class="list" id="Japan-list">
+
+                        <li class="list-item">
+                            <p>
+                                Honto
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Maruzen.jp
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="NovaZelandia" onclick="toggleList('NovaZelandia')">
+                    <h4>
+                        Nova Zelândia
+                    </h4>
+                    <ul class="list" id="NovaZelandia-list">
+
+                        <li class="list-item">
+                            <p>
+                                Amazon
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="PaisdeGales" onclick="toggleList('PaisdeGales')">
+                    <h4>
+                        País de Gales
+                    </h4>
+                    <ul class="list" id="PaisdeGales-list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+
+                <div class="toggle-list" id="Polonia" onclick="toggleList('Polonia')">
+                    <h4>
+                        Polônia
+                    </h4>
+                    <ul class="list" id="Polonia-list">
+
+                        <li class="list-item">
+                            <p>
+                                Azymut
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Czytam.pl
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Empik.com
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Portugal" onclick="toggleList('Portugal')">
+                    <h4>
+                        Portugal
+                    </h4>
+                    <ul class="list" id="Portugal-list">
+
+                        <li class="list-item">
+                            <p>
+                                Fnac
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Russia" onclick="toggleList('Russia')">
+                    <h4>
+                        Russia
+                    </h4>
+                    <ul class="list" id="Russia-list">
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="SharjahUAE" onclick="toggleList('SharjahUAE')">
+                    <h4>
+                        Sharjah UAE
+                    </h4>
+                    <ul class="list" id="SharjahUAE-list">
+
+                        <li class="list-item">
+                            <p>
+                                Ciel
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Kinokuniya
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Neelwafurat.com
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Noon
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                White Lion
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="Singapura" onclick="toggleList('Singapura')">
+                    <h4>
+                        Singapura
+                    </h4>
+                    <ul class="list" id="Singapura-list">
+
+                        <li class="list-item">
+                            <p>
+                                Amazon
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="toggle-list" id="SouthAfrica" onclick="toggleList('SouthAfrica')">
+                    <h4>
+                        South Africa
+                    </h4>
+                    <ul class="list" id="SouthAfrica-list">
+
+                        <li class="list-item">
+                            <p>
+                                Balakudu
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Takealot.com
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="toggle-list" id="UK" onclick="toggleList('UK')">
+                    <h4>
+                        UK
+                    </h4>
+                    <ul class="list" id="UK-list">
+
+                        <li class="list-item">
+                            <p>
+                                Amazon.co.uk
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Blackwells
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Gardners
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Ingram Wholesale UK
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                        <li class="list-item">
+                            <p>
+                                Waterstones
+                            </p>
+                            <p>
+                                *ISBN Exigido | Livros com orelha serão adaptados para formato sem orelha
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+
             </div>
         </section>
         <section class="sectionpar">
             <h4 style="padding: 0;">Distribuidores de e-book</h4>
             <div class="slider">
-                <img src="./img/logos/Skeelo.png"/>
-                <img src="./img/logos/Scribd.png"/>
-                <img src="./img/logos/Overdrive.png"/>
-                <img src="./img/logos/Google.png"/>
-                <img src="./img/logos/Clube.png"/>
-                <img src="./img/logos/Bookmate.png"/>
-                <img src="./img/logos/Barnes.png"/>
-                <img src="./img/logos/Asset 22@3x.png"/>
-                <img src="./img/logos/Amazon.png"/>
+                <img src="./img/logos/Skeelo.png" />
+                <img src="./img/logos/Scribd.png" />
+                <img src="./img/logos/Overdrive.png" />
+                <img src="./img/logos/Google.png" />
+                <img src="./img/logos/Clube.png" />
+                <img src="./img/logos/Bookmate.png" />
+                <img src="./img/logos/Barnes.png" />
+                <img src="./img/logos/Asset 22@3x.png" />
+                <img src="./img/logos/Amazon.png" />
             </div>
         </section>
         <section class="sectionqua">
@@ -3597,7 +2746,7 @@
                     no Clube de Autores?</h3>
             </div>
         </section>
-      
+
         <section class="sectionqui">
             <p style="font-style: italic;width: 56%;margin-left: 22%; font-weight: 600 !important;">Importante: A venda
                 do seu livro nas livrarias e lojas parceiras está condicionada à satisfação dos requisitos técnicos
@@ -4169,7 +3318,7 @@
             infinite: true,
             speed: 500,
             slidesToShow: 5,
-            slidesToScroll: 3,            
+            slidesToScroll: 3,
             responsive: [
                 {
                     breakpoint: 1024,
@@ -4195,7 +3344,7 @@
 
             ]
         });
-    
+
         $('.funcionamobile').slick({
             initialSlide: 0,
             dots: false,
@@ -4231,21 +3380,21 @@
     </script>
     <script>
         function toggleList(list_name) {
-            var ids=[
-    "Alemanha", "Australia", "Brasil", "Canada", "China", "CoreiadoSul", "Ecuador", 
-    "Escocia", "Espanha", "EstadosUnidos", "EuropaContinental", "India", "Inglaterra", 
-    "Italia", "Japan", "NovaZelandia", "PaisdeGales", "Polonia", "Portugal", "Russia", 
-    "SharjahUAE", "Singapura", "SouthAfrica", "UK"
-]
+            var ids = [
+                "Alemanha", "Australia", "Brasil", "Canada", "China", "CoreiadoSul", "Ecuador",
+                "Escocia", "Espanha", "EstadosUnidos", "EuropaContinental", "India", "Inglaterra",
+                "Italia", "Japan", "NovaZelandia", "PaisdeGales", "Polonia", "Portugal", "Russia",
+                "SharjahUAE", "Singapura", "SouthAfrica", "UK"
+            ]
             var index = ids.indexOf(list_name);
             if (index !== -1) {
                 ids.splice(index, 1);
             }
-            for(var i=0;i<ids.length;i++){
-                var name =ids[i]
+            for (var i = 0; i < ids.length; i++) {
+                var name = ids[i]
                 document.getElementById(name + '-list').style.display = "none";
                 document.getElementById(name).classList.remove("active")
-            }            
+            }
             var id = document.getElementById(list_name);
             var list = document.getElementById(list_name + '-list');
             if (list.style.display == "none" || list.style.display == "") {
