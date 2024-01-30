@@ -649,12 +649,18 @@
     }
 
     @media screen and (max-width: 768px) {
-        .sectionprin{
+        .sectionnew .list-item p {
+            width: 100% !important;
+        }
+
+        .sectionprin {
             background-image: url("./img/Banner - Site/ING/400x725.jpg");
         }
-        .sectionnew .list-item{
+
+        .sectionnew .list-item {
             flex-direction: column !important;
         }
+
         .funciona {
             display: none;
         }
@@ -1652,10 +1658,6 @@
                             </p>
                         </li>
 
-
-
-
-
                         <li class="list-item">
                             <p>
                                 The Nile
@@ -1750,18 +1752,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
                     </ul>
                 </div>
 
@@ -1770,10 +1760,6 @@
                         Canada
                     </h4>
                     <ul class="list" id="Canada-list">
-
-
-
-
 
                         <li class="list-item">
                             <p>
@@ -1909,55 +1895,6 @@
                     </ul>
                 </div>
 
-                <div class="toggle-list" id="Escocia" onclick="toggleList('Escocia')">
-                    <h4>
-                        Scotland
-                    </h4>
-                    <ul class="list" id="Escocia-list">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </ul>
-                </div>
-
                 <div class="toggle-list" id="Espanha" onclick="toggleList('Espanha')">
                     <h4>
                         Spain
@@ -2081,22 +2018,6 @@
                     </h4>
                     <ul class="list" id="EstadosUnidos-list">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         <li class="list-item">
                             <p>
                                 Target
@@ -2145,55 +2066,6 @@
                     </ul>
                 </div>
 
-                <div class="toggle-list" id="EuropaContinental" onclick="toggleList('EuropaContinental')">
-                    <h4>
-                        Continental Europe
-                    </h4>
-                    <ul class="list" id="EuropaContinental-list">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </ul>
-                </div>
-
                 <div class="toggle-list" id="India" onclick="toggleList('India')">
                     <h4>
                         India
@@ -2229,14 +2101,6 @@
 
 
 
-
-
-
-
-
-
-
-
                     </ul>
                 </div>
 
@@ -2245,46 +2109,6 @@
                         England
                     </h4>
                     <ul class="list" id="Inglaterra-list">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                     </ul>
                 </div>
@@ -2335,10 +2159,6 @@
                             </p>
                         </li>
 
-
-
-
-
                     </ul>
                 </div>
 
@@ -2386,66 +2206,8 @@
 
 
 
-
-
-
-
-
-
-
-
                     </ul>
                 </div>
-
-                <div class="toggle-list" id="PaisdeGales" onclick="toggleList('PaisdeGales')">
-                    <h4>
-                        Wales
-                    </h4>
-                    <ul class="list" id="PaisdeGales-list">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </ul>
-                </div>
-
 
                 <div class="toggle-list" id="Polonia" onclick="toggleList('Polonia')">
                     <h4>
@@ -2482,10 +2244,6 @@
 
 
 
-
-
-
-
                     </ul>
                 </div>
 
@@ -2507,20 +2265,6 @@
                     </ul>
                 </div>
 
-                <div class="toggle-list" id="Russia" onclick="toggleList('Russia')">
-                    <h4>
-                        Russia
-                    </h4>
-                    <ul class="list" id="Russia-list">
-
-
-
-
-
-
-
-                    </ul>
-                </div>
 
                 <div class="toggle-list" id="SharjahUAE" onclick="toggleList('SharjahUAE')">
                     <h4>
@@ -3303,8 +3047,8 @@
         function toggleList(list_name) {
             var ids = [
                 "Alemanha", "Australia", "Brasil", "Canada", "China", "CoreiadoSul", "Ecuador",
-                "Escocia", "Espanha", "EstadosUnidos", "EuropaContinental", "India", "Inglaterra",
-                "Italia", "Japan", "NovaZelandia", "PaisdeGales", "Polonia", "Portugal", "Russia",
+                "Espanha", "EstadosUnidos", "India", "Inglaterra",
+                "Italia", "Japan", "NovaZelandia", "Polonia", "Portugal",
                 "SharjahUAE", "Singapura", "SouthAfrica", "UK"
             ]
             var index = ids.indexOf(list_name);
